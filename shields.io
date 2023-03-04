@@ -1,6 +1,16 @@
 #!/bin/bash
 # shields.io
 
+###########################################################
+# --------------------- KETERANGAN ---------------------- #
+# Nama program      : shields.io.                         #
+# Deskripsi program : Membuat lencana untuk repo Github   #
+# Pembuat program   : Rofi.                               #
+# Versi program     : 1.0.                                #
+# Beranda program   : https://github.com/FII14/shields.io #
+# ------------------------------------------------------- #
+###########################################################
+
 # variabel warna
 h="\e[1;32m"
 m="\e[1;31m"
