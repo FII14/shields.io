@@ -19,17 +19,6 @@ k="\e[1;33m"
 p="\e[1;39m"
 c="\e[1;36m"
 
-# logo shields.io
-echo -e ""
-echo -e "${m}#####################################################"
-echo -e "${m}# ${h}--------------------- ${p}TENTANG ${h}------------------- ${m}#"
-echo -e "${m}# ${p}program ${h}: ${p}Membuat lencana untuk repositori Github ${m}#"
-echo -e "${m}# ${p}pembuat ${h}: ${p}Rofi                                    ${m}#"                                                                     echo -e "${m}# ${p}versi   ${h}: ${p}1.0                                     ${m}#"
-echo -e "${m}# ${p}beranda ${h}: ${p}https://github.com/FII14/shields.io     ${m}#"
-echo -e "${m}# ${h}------------------------------------------------- ${m}#"
-echo -e "${m}#####################################################"
-echo -e ""
-
 #link beranda
 beranda="https://github.com/FII14/shields.io"
 
