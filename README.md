@@ -4,6 +4,8 @@
 
 # shields.io
 
+![](https://github.com/FII14/shields.io/blob/main/IMG_20230304_233821.jpg)
+
 shields.io adalah program Shell untuk membuat lencana repositori Github.
 
 ## Jenis warna
@@ -18,7 +20,7 @@ Ada beberapa jenis warna yang anda dapat gunakan, diantara sebagai berikut:
 6. merah
 7. biru
 8. abu-abu terang
-
+9. ungu
 
 ## Cara menginstal
 
