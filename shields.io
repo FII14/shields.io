@@ -1,7 +1,7 @@
 #!/bin/bash
 # shields.io
 
-# warna
+# variabel warna
 h="\e[1;32m"
 m="\e[1;31m"
 r="\e[0m"
@@ -9,6 +9,7 @@ k="\e[1;33m"
 p="\e[1;39m"
 c="\e[1;36m"
 
+# logo shields.io
 echo -e ""
 echo -e "${m}#####################################################"
 echo -e "${m}# ${h}--------------------- ${p}TENTANG ${h}------------------- ${m}#"
@@ -25,23 +26,28 @@ beranda="https://github.com/FII14/shields.io"
 # link untuk membuat lencana
 link_shields="https://img.shields.io/badge/"
 
-
+# meminta masukan keterangan 
 read -p $'\e[1;39m[\e[1;34m»\e[1;39m] Masukan keterangan\e[1;39m: ' keterangan
 
+# kondisi jika masukan keterangan kosong
 if [[ -z "${keterangan}" ]]; then
         echo -e "${p}[${m}×${p}] Kesalahan: keterangan tidak boleh kosong.${r}"
         exit 0
 fi
 
+# meminta masukan pesan
 read -p $'\e[1;39m[\e[1;34m»\e[1;39m] Masukan pesan\e[1;39m: ' pesan
 
+# kondisi jika masukan pesan kosong
 if [[ -z "${pesan}" ]]; then
         echo -e "${p}[${m}×${p}] Kesalahan: pesan tidak boleh kosong.${r}"
         exit 0
 fi
 
+# meminta masukan warna
 read -p $'\e[1;39m[\e[1;34m»\e[1;39m] Masukan warna\e[1;39m: ' warna
 
+# kondisi jika masukan warna kosong
 if [[ -z "${warna}" ]]; then
         echo -e "${p}[${m}×${p}] Kesalahan: warna tidak boleh kosong.${r}"
         exit 0
