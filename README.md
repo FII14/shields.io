@@ -1,4 +1,6 @@
 ![lencana](https://img.shields.io/badge/Platform-Linux-orange)
+![lencana](https://img.shields.io/badge/Versi-1.0-blue)
+![lencana](https://img.shields.io/badge/Pemeliharaan-Iya-green)
 
 # shields.io
 
