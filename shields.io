@@ -9,10 +9,12 @@ k="\e[1;33m"
 p="\e[1;39m"
 c="\e[1;36m"
 
+token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
+
 # Memasukan token
 read -s -p "Token: " token
 
-if [[ "${token}" != "14122003" ]]; then
+if [[ "${token}" != token ]]; then
         echo -e "\nToken tidak valid."
         exit 0
 fi
