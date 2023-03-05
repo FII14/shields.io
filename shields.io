@@ -1,15 +1,17 @@
 #!/bin/bash
 # shields.io
 
-###########################################################
-# --------------------- KETERANGAN ---------------------- #
-# Nama program      : shields.io.                         #
-# Deskripsi program : Membuat lencana untuk repo Github   #
-# Pembuat program   : Rofi.                               #
-# Versi program     : 1.0.                                #
-# Beranda program   : https://github.com/FII14/shields.io #
-# ------------------------------------------------------- #
-###########################################################
+echo -e "${m}"
+echo -e "${m}###########################################################"
+echo -e "${m}# ${h}--------------------- ${p}KETERANGAN ${h}---------------------- ${m}#${r}"
+echo -e "${m}# ${p}Nama program      ${h}: ${p}shields.io                          ${m}#${r}"
+echo -e "${m}# ${p}Deskripsi program ${h}: ${p}Membuat lencana untuk repo Github   ${m}#${r}"
+echo -e "${m}# ${p}Pembuat program   ${h}: ${p}Rofi                                ${m}#${r}"
+echo -e "${m}# ${p}Versi program     ${h}: ${p}1.0                                 ${m}#${r}"
+echo -e "${m}# ${p}Beranda program   ${h}: ${p}https://github.com/FII14/shields.io ${m}#${r}"
+echo -e "${m}# ${h}------------------------------------------------------- ${m}#${r}"
+echo -e "${m}###########################################################"
+echo -e "${r}"
 
 # variabel warna
 h="\e[1;32m"
