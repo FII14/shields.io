@@ -12,15 +12,17 @@ shields.io adalah program Shell untuk membuat lencana repositori Github.
 
 Ada beberapa jenis warna yang anda dapat gunakan, diantara sebagai berikut:
 
-1. hijau terang
-2. hijau
-3. kuning hijau
-4. kuning
-5. orange
-6. merah
-7. biru
-8. abu-abu terang
-9. ungu
+| Warna | Contoh |
+|:--:|:--:|
+| hijau terang | ![lencana](https://img.shields.io/badge/warna-hijau%20terang-brightgreen) |
+| hijau | ![lencana](https://img.shields.io/badge/warna-hijau-green) |
+| kuning hijau | ![lencana](https://img.shields.io/badge/warna-kuning%20hijau-yellowgreen) |
+| kuning | ![lencana](https://img.shields.io/badge/warna-kuning-yellow) |
+| orange | ![lencana](https://img.shields.io/badge/warna-orange-orange) |
+| merah | ![lencana](https://img.shields.io/badge/warna-merah-red) |
+| biru | ![lencana](https://img.shields.io/badge/warna-biru-blue) |
+| abu-abu muda | ![lencana](https://img.shields.io/badge/warna-abu--abu%20muda-lightgrey) |
+| ungu | ![lencana](https://img.shields.io/badge/warna-ungu-blueviolet) |
 
 ## Cara menginstal
 
