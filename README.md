@@ -4,7 +4,7 @@
 
 # shields.io
 
-![](https://github.com/FII14/shields.io/blob/main/IMG_20230304_233821.jpg)
+![](https://github.com/FII14/shields.io/blob/main/20230305_143131.jpg)
 
 shields.io adalah program Shell untuk membuat lencana repositori Github.
 
