@@ -9,6 +9,14 @@ k="\e[1;33m"
 p="\e[1;39m"
 c="\e[1;36m"
 
+# Memasukan token
+read -s -p "Token: " token
+
+if [[ "${token}" != "14122003" ]]; then
+        echo "Token tidak valid."
+        exit 0
+fi
+
 # logo shields.io
 echo -e "${m}"
 echo -e "${m}###########################################################"
