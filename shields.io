@@ -13,9 +13,11 @@ c="\e[1;36m"
 read -s -p "Token: " token
 
 if [[ "${token}" != "14122003" ]]; then
-        echo "Token tidak valid."
+        echo -e "\nToken tidak valid."
         exit 0
 fi
+
+clear
 
 # logo shields.io
 echo -e "${m}"
