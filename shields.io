@@ -22,9 +22,9 @@ if [[ "${masukan_token}" !=  "${token}" ]]; then
 fi
 
 echo "[+] Token yang anda masukan valid."
-
-clear
 sleep 3
+clear
+
 
 # logo shields.io
 echo -e "${m}"
