@@ -17,11 +17,14 @@ read -s -p "[»] Masukan token: " masukan_token
 
 # kondisi jika user salah memasukan token
 if [[ "${masukan_token}" !=  "${token}" ]]; then
-        echo -e "\n[×] Kesalahan: token tidak valid."
+        echo -e "\n[×] Kesalahan: token yang anda masukan tidak valid."
         exit 0
 fi
 
+echo "[+] Token yang anda masukan valid."
+
 clear
+sleep 3
 
 # logo shields.io
 echo -e "${m}"
