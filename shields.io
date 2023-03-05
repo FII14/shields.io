@@ -104,8 +104,8 @@ elif [[ "${warna}" == "biru" ]]; then
         echo -e "${p}[${h}+${p}] Lencana: ![lencana](${link_shields}${keterangan}-${pesan}-${warna})${r}"
         exit 0
 
-# warna abu-abu terang
-elif [[ "${warna}" == "abu-abu terang" ]]; then
+# warna abu-abu muda
+elif [[ "${warna}" == "abu-abu muda" ]]; then
         warna="lightgrey"
         echo -e "\n${p}[${c}INFO${p}]${r}\n"
         echo -e "${p}[${h}+${p}] Lencana: ![lencana](${link_shields}${keterangan}-${pesan}-${warna})${r}"
