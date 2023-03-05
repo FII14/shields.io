@@ -9,9 +9,10 @@ k="\e[1;33m"
 p="\e[1;39m"
 c="\e[1;36m"
 
+# token
 token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
 
-# Memasukan token
+# memasukan token
 read -s -p "Token: " masukan_token
 
 if [[ "${masukan_token}" !=  "${token}" ]]; then
