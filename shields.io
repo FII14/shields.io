@@ -15,6 +15,7 @@ token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
 # memasukan token
 read -s -p "[»] Masukan token: " masukan_token
 
+# kondisi jika user salah memasukan token
 if [[ "${masukan_token}" !=  "${token}" ]]; then
         echo -e "\n[×] Kesalahan: token tidak valid."
         exit 0
