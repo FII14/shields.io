@@ -21,7 +21,7 @@ if [[ "${masukan_token}" !=  "${token}" ]]; then
         exit 0
 fi
 
-echo "\n[+] Token yang anda masukan valid."
+echo -e "\n[+] Token yang anda masukan valid."
 sleep 3
 clear
 
