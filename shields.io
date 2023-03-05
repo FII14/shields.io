@@ -9,21 +9,7 @@ k="\e[1;33m" # kuning
 p="\e[1;39m" # putih
 c="\e[1;36m" # cyan
 
-# token
-token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
 
-# memasukan token
-read -s -p "[»] Masukan token: " masukan_token
-
-# kondisi jika user salah memasukan token
-if [[ "${masukan_token}" !=  "${token}" ]]; then
-        echo -e "\n[×] Kesalahan: token yang anda masukan tidak valid."
-        exit 0
-fi
-
-echo -e "\n[+] Token yang anda masukan valid."
-sleep 3
-clear
 
 
 # logo shields.io
