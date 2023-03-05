@@ -1,6 +1,15 @@
 #!/bin/bash
 # shields.io
 
+# variabel warna
+h="\e[1;32m"
+m="\e[1;31m"
+r="\e[0m"
+k="\e[1;33m"
+p="\e[1;39m"
+c="\e[1;36m"
+
+# logo shields.io
 echo -e "${m}"
 echo -e "${m}###########################################################"
 echo -e "${m}# ${h}--------------------- ${p}KETERANGAN ${h}---------------------- ${m}#${r}"
@@ -12,14 +21,6 @@ echo -e "${m}# ${p}Beranda program   ${h}: ${p}https://github.com/FII14/shields.
 echo -e "${m}# ${h}------------------------------------------------------- ${m}#${r}"
 echo -e "${m}###########################################################"
 echo -e "${r}"
-
-# variabel warna
-h="\e[1;32m"
-m="\e[1;31m"
-r="\e[0m"
-k="\e[1;33m"
-p="\e[1;39m"
-c="\e[1;36m"
 
 #link beranda
 beranda="https://github.com/FII14/shields.io"
