@@ -2,12 +2,12 @@
 # shields.io
 
 # variabel warna
-h="\e[1;32m"
-m="\e[1;31m"
-r="\e[0m"
-k="\e[1;33m"
-p="\e[1;39m"
-c="\e[1;36m"
+h="\e[1;32m" # hijau
+m="\e[1;31m" # merah
+r="\e[0m"    # reset
+k="\e[1;33m" # kuning
+p="\e[1;39m" # putih
+c="\e[1;36m" # cyan
 
 # token
 token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
