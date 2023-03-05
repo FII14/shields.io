@@ -13,10 +13,10 @@ c="\e[1;36m"
 token=$(echo -n "MTQxMjIwMDM=" | base64 -d)
 
 # memasukan token
-read -s -p "Token: " masukan_token
+read -s -p "[»] Masukan token: " masukan_token
 
 if [[ "${masukan_token}" !=  "${token}" ]]; then
-        echo -e "\nToken tidak valid."
+        echo -e "\n[×] Kesalahan: token tidak valid."
         exit 0
 fi
 
